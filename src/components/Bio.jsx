@@ -11,8 +11,11 @@ const Bio = (props) => (
       {props.currentRole || "role"}
     </span>
     <ul className={tw`mt-4`}>
-      {(props.contacts || []).map((contact) => (
-        <li className={tw`flex items-center space-x-2`} key={contact.text}>
+      {(props.contacts || []).map((contact, index) => (
+        <li
+          className={tw`flex items-center space-x-2`}
+          key={`${index}-${contact.text}`}
+        >
           {contact.icon}
           <span>{contact.text}</span>
         </li>
