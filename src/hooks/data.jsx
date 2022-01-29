@@ -16,11 +16,11 @@ export const useData = () => ({
       contacts: [
         {
           icon: <AiOutlineMail />,
-          text: import.meta.env.EMAIL,
+          text: import.meta.env.VITE_EMAIL,
         },
         {
           icon: <AiOutlinePhone />,
-          text: import.meta.env.EMAIL,
+          text: import.meta.env.VITE_PHONE_NUMBER,
         },
         {
           icon: <CgWebsite />,
