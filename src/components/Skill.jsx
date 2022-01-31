@@ -9,7 +9,7 @@ const Skill = (props) => (
     </h1>
     <ul className={tw`grid grid-cols-3 list-disc pl-4`}>
       {(props.skills || []).map((skill) => (
-        <li className={tw`col-span-1`} key={skill}>
+        <li className={tw`col-span-1 capitalize`} key={skill}>
           {skill}
         </li>
       ))}
