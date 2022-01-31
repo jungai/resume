@@ -10,16 +10,12 @@ function App() {
   const { data } = useData();
 
   return (
-    <div className={tw`min-h-screen flex`}>
-      <div className={tw`p-6 w-[300px] bg-[#ecf0f1] space-y-4`}>
-        <Bio {...data.bio} />
-        <Education />
-        <Skill skills={data.skills} />
-      </div>
-      <div className={tw`p-6 space-y-4`}>
-        <CareerObjective />
-        <WorkExperience workExps={data.workExps} />
-      </div>
+    <div className={tw`min-h-screen p-4 space-y-4`}>
+      <Bio {...data.bio} />
+      <CareerObjective />
+      <Education />
+      <WorkExperience workExps={data.workExps} />
+      <Skill skills={data.skills} />
     </div>
   );
 }

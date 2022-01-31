@@ -10,8 +10,8 @@ import { FaDev } from "react-icons/fa";
 export const useData = () => ({
   data: {
     bio: {
-      firstName: "Woraphol",
-      lastName: "Wananiyakul",
+      firstName: "woraphol",
+      lastName: "wananiyakul",
       currentRole: "Software Engineer",
       contacts: [
         {
@@ -28,11 +28,11 @@ export const useData = () => ({
         },
         {
           icon: <FaDev />,
-          text: "dev.to/jungai",
+          text: "jungai",
         },
         {
           icon: <AiFillGithub />,
-          text: "github.com/jungai",
+          text: "jungai",
         },
       ],
     },
@@ -45,38 +45,39 @@ export const useData = () => ({
       "express",
       "jest",
       "wsl2",
-      "linux(ubuntu, popos), macos",
+      "linux(ubuntu, popos)",
+      "macos",
+      "vim",
     ],
     workExps: [
       {
         role: "full stack developer",
         company: "Agent One Co., Ltd.",
-        timeline: "june 2019 - jan 2022",
+        timeline: "Jun 2019 - Jan 2022",
         jobDetail: [
-          `Developed web applications(ERP) using reactjs, vuejs with
+          `Implemented web applications(ERP) using reactjs, vuejs with
           micro-frontend architecture.`,
-          `Developed backend using nodejs, express with micro-services
+          `Implemented backend using nodejs, express with micro-services
           architecture.`,
-          `Find a new technology and adopt it to the project.`,
           `Coached and mentor co-operative student.`,
         ],
       },
       {
         role: "part-time remote developer",
         company: "Agent One Co., Ltd.",
-        timeline: "january 2019 - march 2019",
+        timeline: "Jan 2019 - Mar 2019",
         jobDetail: [
-          "Developed web applications(ERP) using nuxtjs.",
-          "Developed backend using nodejs, express.",
+          "Implemented web applications(ERP) using nuxtjs.",
+          "Implemented backend using nodejs, express.",
         ],
       },
       {
         role: "co-operative student as developer",
         company: "Agent One Co., Ltd.",
-        timeline: "june 2018 - december 2018",
+        timeline: "Jun 2018 - Dec 2018",
         jobDetail: [
-          "Developed web applications using nuxtjs.",
-          "Developed backend using nodejs, express.",
+          "Implemented web applications using nuxtjs.",
+          "Implemented backend using nodejs, express.",
         ],
       },
     ],
