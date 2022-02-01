@@ -1,4 +1,5 @@
 import { tw } from "twind";
+import { TiLocation } from "react-icons/ti";
 
 const Bio = (props) => (
   <div>
@@ -8,7 +9,11 @@ const Bio = (props) => (
     <p className={tw`capitalize text(xl center) italic`}>
       {props.currentRole || "role"}
     </p>
-    <ul className={tw`mt-4 flex justify-center items-center space-x-4`}>
+    <span className={tw`flex items-center justify-center`}>
+      <TiLocation />
+      {props.address || "address"}
+    </span>
+    <ul className={tw`flex justify-center items-center space-x-4`}>
       {(props.contacts || []).map((contact, index) => (
         <li
           className={tw`flex items-center justify-center space-x-1`}

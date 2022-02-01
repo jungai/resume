@@ -11,9 +11,10 @@ const Education = () => (
       king mongkut's institute of technology ladkrabang
     </h2>
     <div className={tw`flex items-center justify-between`}>
-      <p>Computer Science, B.S. 3.21 GPA</p>
+      <p>Computer Science, B.S.</p>
       <span>2015-2019</span>
     </div>
+    <span>3.21 GPA</span>
   </div>
 );
 

@@ -13,6 +13,7 @@ export const useData = () => ({
       firstName: "woraphol",
       lastName: "wananiyakul",
       currentRole: "Software Engineer",
+      address: "Bang Sao Thong,Samut Prakan 10570",
       contacts: [
         {
           icon: <AiOutlineMail />,
@@ -55,10 +56,12 @@ export const useData = () => ({
         company: "Agent One Co., Ltd.",
         timeline: "Jun 2019 - Jan 2022",
         jobDetail: [
-          `Implemented web applications(ERP) using reactjs, vuejs with
+          `Implemented web applications using typescript,nuxtjs,reactjs,vuejs with
           micro-frontend architecture.`,
           `Implemented backend using nodejs, express with micro-services
           architecture.`,
+          "Find tooling to improve developer experience and adopt it to team",
+          "Deployed application to AWS cloud with pipeline (bitbucket)",
           `Coached and mentor co-operative student.`,
         ],
       },
@@ -67,7 +70,7 @@ export const useData = () => ({
         company: "Agent One Co., Ltd.",
         timeline: "Jan 2019 - Mar 2019",
         jobDetail: [
-          "Implemented web applications(ERP) using nuxtjs.",
+          "Implemented web applications using nuxtjs.",
           "Implemented backend using nodejs, express.",
         ],
       },
